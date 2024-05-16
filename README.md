@@ -1,35 +1,5 @@
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
-SoundWave 
--->
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/V3RS/SoundCloud-Clone">
-    <img src="./frontend/src/components/Navigation/logo.png" alt="Logo" width="80" height="80" style="background-color:white">
-  </a>
 
-  <h3 align="center">SoundWave</h3>
-
-  <p align="center">
-    SoundWave, a SoundCloud clone, is a music sharing platform where anyone, from up-and-coming artists to professionals, can upload their music for users to discover.
-    <br />
-    <a href="https://github.com/V3RS/SoundCloud-Clone/wiki"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://soundwave-vs.herokuapp.com/">View Site</a>
-    ·
-    <a href="https://github.com/V3RS/SoundCloud-Clone/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/V3RS/SoundCloud-Clone/issues">Request Feature</a>
-  </p>
-</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -60,8 +30,6 @@ SoundWave
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[Click here to view SoundWave live on the web!](https://soundwave-vs.herokuapp.com/)
 <br>
 </br>
 <img src="https://live.staticflickr.com/65535/51119712284_5b9abba493_h.jpg" alt="homepage ss" />
@@ -104,9 +72,7 @@ Here is everything we need you to do to get started with SoundWave.
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/V3RS/SoundCloud-Clone
-   ```
+ 
 2. Install NPM packages
    ```sh
    npm install
@@ -141,28 +107,5 @@ Here is everything we need you to do to get started with SoundWave.
 
 <!-- ROADMAP -->
 
-## Roadmap
-
-See the [open issues](https://github.com/V3RS/SoundCloud-Clone/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- CONTACT -->
-
-## Contact & Acknowledgements
-
-- Veer Singh - [LinkedIn](https://www.linkedin.com/in/veerkaran-singh-45b4a9190/) - [GitHub](https://github.com/V3RS)
-
-Project Link: [https://github.com/V3RS/SoundCloud-Clone/](https://github.com/V3RS/SoundCloud-Clone/)
 
 <!-- ACKNOWLEDGEMENTS -->
