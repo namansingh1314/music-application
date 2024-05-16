@@ -1,0 +1,211 @@
+.slider-container {
+  /* position: fixed; */
+  top: 0px;
+  /* border: 1px solid black; */
+  height: 450px;
+  width: 1240px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  /* z-index: -1; */
+  /* background-color: red; */
+  /* background-image: url("./sliderImg2.png"); */
+  /* background-size: 900px 450px; */
+  border-top: 5px solid #15883e;
+}
+
+#top-splash {
+  width: 1240px;
+  background-color: white;
+  /* background-color: white;
+  z-index: -11; */
+}
+#bottom-splash {
+  width: 1240px;
+  /* height: 145vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-bottom: -500px; */
+}
+
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+    Garuda, Verdana, Tahoma, sans-serif; */
+  position: absolute;
+  top: 0px;
+  /* overflow: hidden; */
+  /* height: 2500px; */
+  /* background-colors: red; */
+  /* z-index: -12; */
+  /* height: 10000px; */
+  /* height: auto; */
+}
+
+.splash-search-box-container {
+  border: none;
+  display: flex;
+  justify-content: center;
+  line-height: 1.7;
+  margin-top: 50px;
+  /* position: fixed; */
+  top: 450px;
+}
+
+.trend-tracks-container {
+  /* border: 1px solid red; */
+  /* position: fixed; */
+  top: 550px;
+  /* use the height below when data */
+  height: 700px;
+  /* height: 160px; */
+  /* height: 10000px; */
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  /* overflow: scroll; */
+}
+
+/* #test {
+  position: absolute;
+  top: 5000px;
+} */
+
+#thanks-splash {
+  /* position: relative; */
+  font-size: 36px;
+  font-weight: 100;
+  text-align: center;
+  color: #333;
+  /* border: 1px solid black; */
+  position: relative;
+  /* bottom: 210px; */
+  bottom: 315px;
+  background-color: white;
+  width: 1240px;
+  height: 525px;
+}
+
+#thanks-content {
+  position: relative;
+  top: 100px;
+}
+
+#thanks-content > p {
+  font-size: 24px;
+  margin-top: 7px;
+  position: relative;
+  top: 10px;
+}
+
+#splash-signup-btn {
+  cursor: pointer;
+  background-color: #15883e;
+  color: #fff;
+  /* border-color: #ccc; */
+  border: none;
+  font-size: 18px;
+  min-width: 200px;
+  height: 46px;
+  margin-right: 25px;
+  padding-top: 5px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: 525px;
+}
+
+#splash-login-container {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  position: relative;
+  /* bottom: 185px; */
+  top: 55px;
+  left: 510px;
+  /* width: 1000px; */
+}
+
+#splash-log-txt {
+  font-size: 12px;
+  color: #333;
+  margin-top: 7px;
+  position: relative;
+  top: 7px;
+}
+
+#splash-login-btn {
+  width: 81px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* #thanks-container {
+  background-color: white;
+}
+
+#splash-btm {
+  background-color: white;
+} */
+/*
+.Overlay {
+  background-color: hsla(0, 0%, 94.9%, 0.9);
+} */
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 500ms ease-in-out;
+  z-index: 15;
+}
+
+.ReactModal__Overlay--after-open {
+  /* background-color: hsla(0, 0%, 94.9%, 0.9); */
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(-100px);
+  /* transform: translateY(100px); */
+  /* transition: all 500ms ease-in-out; */
+}
+
+.OuterModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  border: none;
+}
+
+.InnerModal {
+  text-decoration: none;
+  height: 100%;
+  background: white;
+  height: fit-content;
+  /* position: fixed; */
+}
+
+.InnerModal:focus {
+  outline: 0;
+}
